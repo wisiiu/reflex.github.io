@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    transform: translate(-50%, -75%);
+    border-radius: 100%;
+    top: 75%;
+    left: 50%;
+}
+
+h1{
+    text-align: center;
+    font-family: arial;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: inline-block;  
+}
+
+.win {
+    color: green;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    margin: 0 1rem;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    width: 100px;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+
+h3{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+span {
+    font-family: arial;
+    padding: 1rem;
+}
+
+.h3 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
